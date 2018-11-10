@@ -1,0 +1,67 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 8vh;
+  text-align: center;
+}
+.intro_blurb {
+  color: #a8a6a5;
+  font-size: 2.5vh;
+  text-align: center;
+  margin-top: 1vh;
+  line-height: 4vh;
+  width: 70%;
+}
+.icon_row {
+  flex-direction: row;
+}
+.icon_img {
+  border-radius: 30%;
+  height: 5vh;
+  width: 5vh;
+}
+.activity_box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.activity_title {
+  font-size: 5vh;
+}
+.activity {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  margin-top: 2vh;
+  justify-content: center;
+  margin-bottom: 2vh;
+  width: 70%;
+}
+.activity_img {
+  height: 8vh;
+  width: 8vh;
+}
+.activity_desc {
+  font-size: 2.5vh;
+  margin-top: 1vh;
+  text-align: left;
+  width: 70%;
+  margin-left: 3vh;
+}
+.language_blurb {
+  color: #a8a6a5;
+}
+@media screen and (max-width: 500px) {
+  .activity {
+    width: 100%;
+  }
+}
+}
